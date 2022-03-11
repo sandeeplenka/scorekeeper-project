@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">  
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+<section class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-half is-offset-one-quarter">   
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is 2by1">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Tennis_Racket_and_Balls.jpg" alt="">
+                        </figure>
+                    </div>
+                    <header class="card-header">
+                        <p class="card-header-title">
+                            Score Tracker
+                        </p>
+                    </header>
+                    
+                    <div class="card-content">
+                        <div class="content">
+                            <h1 class="title is-1"><span id="p1display">0</span>to<span id="p2display">0</span></h1>
+                            <p class="subtitle">Use the button below to keep the Score</p>  
+                            <label for="playto" class="label is-large is-inline">Playing to</label>
+                            <div class="select select is-rounded">   
+                                <select name="Playing" id="playto">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>   
+                            </div>
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <button id="p1score" class="is-primary button card-footer-item">+1player1</button>
+                        <button id="p2score" class="is-info button card-footer-item">+1player2</button>
+                        <button id="reset" class="button is-danger card-footer-item">reset</button>
+                    </footer>
+                </div>  
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+    
+    
+    
+    
+    
+                <!-- 
+                <h2>ping pong tracker<h2>
+                <p><span class="p1display">0</span>to<span class="p2display">0</span></p>
+                <label for="Playing">Playing to</label>
+                <div class="select is-primary">   
+                    <select name="Playing" id="playto">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">6</option>
+                        <option value="8">6</option>
+                        <option value="9">6</option>
+                        <option value="10">6</option>
+                    </select>
+                </div>
+                <br>
+                <button class="p1score">+1player1</button>
+                <button class="p2score">+1player2</button>
+                <button class="reset">reset</button> -->
+           
+    
+   
+    <script src="app.js"></script>
+</body>
+</html>
